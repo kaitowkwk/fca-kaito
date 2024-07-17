@@ -10,18 +10,18 @@ This API is the only way to automate chat functionalities on a user account. We 
 _Disclaimer_: We are not responsible if your account gets banned for spammy activities such as sending lots of messages to people you don't know, sending messages very quickly, sending spammy looking URLs, logging in and out very quickly... Be responsible Facebook citizens.
 
 ## Install
-If you just want to use fca-deku, you should use this command:
+If you just want to use fca-kaito, you should use this command:
 ```bash
-npm install fca-deku
+npm install fca-kaito
 ```
-It will download `fca-deku` from NPM repositories
+It will download `fca-kaito` from NPM repositories
 
 ## Testing your bots
 If you want to test your bots without creating another account on Facebook, you can use [Facebook Whitehat Accounts](https://www.facebook.com/whitehat/accounts/).
 
 ## Example Usage
 ```javascript
-const login = require("fca-deku");
+const login = require("fca-kaito");
 
 // Create simple echo bot
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
@@ -60,7 +60,7 @@ __Tip__: to find your own ID, you can look inside the cookies. The `userID` is u
 
 __Example (Basic Message)__
 ```js
-const login = require("fca-deku");
+const login = require("fca-kaito");
 
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
     if(err) return console.error(err);
@@ -73,7 +73,7 @@ login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
 
 __Example (File upload)__
 ```js
-const login = require("fca-deku");
+const login = require("fca-kaito");
 
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
     if(err) return console.error(err);
@@ -97,7 +97,7 @@ __Example__
 
 ```js
 const fs = require("fs");
-const login = require("fca-deku");
+const login = require("fca-kaito");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"};
 
@@ -121,7 +121,7 @@ __Example__
 
 ```js
 const fs = require("fs");
-const login = require("fca-deku");
+const login = require("fca-kaito");
 
 // Simple echo bot. It will repeat everything that you say.
 // Will stop when you say '/stop'
