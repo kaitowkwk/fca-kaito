@@ -1,5 +1,5 @@
 {
-  "name": "fca-deku",
+  "name": "fca-kaito",
   "version": "1.0.2",
   "description": "A Facebook chat API that doesn't rely on XMPP",
   "scripts": {
@@ -11,9 +11,9 @@
     "facebook",
     "chat",
     "api",
-    "fca-deku"
+    "fca-kaito"
   ],
-  "author": "Avery, David, Maude, Benjamin, UIRI, NTKhang (rebuild), Sam (Update), Deku (Update)",
+  "author": "Avery, David, Maude, Benjamin, UIRI, NTKhang (rebuild), Sam (Update), Deku (Update), Kaito (Update)",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.22.0",
